@@ -1,6 +1,3 @@
-$(document).ready(function() {
-    $("button").click(function() {
-        $(".vanish").fadeOut("slow");
-    });
-});
-
+$(document).ready(function(){
+    $("#menu").accordion();
+})
